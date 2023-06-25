@@ -1,10 +1,12 @@
 
 import { createStore, combineReducers } from "redux";
 import phoneReducer from "./phones/phoneReducer";
+import liquorReduser from "./liquors/liquorReducer";
 
 
 const rootReducer = combineReducers({
-        phones: phoneReducer, 
+        phones: phoneReducer,
+        liquors: liquorReduser,
 })
 
 
